@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Mi niña Elizabeth</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+
+  <body>
+    <div id="app">
+      <canvas id="sandCanvas"></canvas>
+    </div>
+
+    <div id="controles">
+      <button id="btnPlay">▶ Reproducir</button>
+      <input type="range" id="progreso" min="0" max="1000" value="0" />
+      <span id="tiempo">0:00 / 0:00</span>
+      <input type="range" id="volumen" min="0" max="100" value="75" />
+    </div>
+
+    <audio id="musica" src="Te Estoy Correteando.mp3"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
